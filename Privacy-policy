@@ -1,16 +1,58 @@
 Privacy Policy for Assetora
-Last updated: September 13, 2026
-At Assetora, accessible from our app, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Assetora and how we use it.
-Information We Collect
-Assetora require's user registration or collect personal information such as names, email addresses, or phone numbers. We use a unique device identifier stored locally on your device solely to manage like counts and view metrics accurately.
-How We Use Your Information
-We use the collected information in the following ways:
-To provide, operate, and maintain our app features.
-To track view and like counts for assets accurately per device.
-To improve user experience and app performance.
-Third Party Privacy Policies
-Assetora's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party services for more detailed information.
-Consent
-By using our app, you hereby consent to our Privacy Policy and agree to its terms.
-Contact Us
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [hexacrewdev@gmail.com]
+
+Last updated: September 17, 2026
+
+This Privacy Policy explains how Assetora (“Assetora,” “we,” “us,” or “our”) handles information when you use the Assetora mobile application (the “App”). By using the App, you acknowledge this Policy.
+
+1. Information We Collect and Process
+Account and authentication information
+You may browse much of the App without an account. An account is required to download assets and to use account-based features such as likes, saved assets, and comments. When you create an account with email and password, we process your display name, email address, Firebase user ID, and authentication information. Passwords are submitted to Firebase Authentication; Assetora does not store your plaintext password in its Firestore user record.
+
+If you choose Sign in with Google, Google and Firebase Authentication provide the information needed to authenticate you, such as your email address, Firebase user ID, and basic profile information made available by your Google account. We do not receive your Google password.
+
+Account activity and content
+For signed-in users, we store and sync your saved assets, liked asset IDs, viewed asset IDs, and the related asset metadata needed to show your library. If you post a comment, we store the comment text, your Firebase user ID, display name, the asset ID, timestamps, and whether the comment was edited. We also maintain aggregate view and like counts for assets.
+
+Local app data and device information
+The App stores the following on your device using local app storage: a randomly generated Assetora device identifier, the IDs of assets you have viewed, app settings (theme, autoplay, and skip preference), temporary navigation/cache data, and a background timestamp. This release does not transmit the locally generated device identifier to our server and does not use it as the identifier for likes or views. The local viewed-assets list helps prevent repeat view-count increments on the same app installation; when you are signed in, that list is also synced to your account.
+
+Technical information processed by service providers
+Firebase Authentication may process information such as IP address and user-agent data to authenticate users, secure sign-in, and prevent abuse. Network providers involved in delivering the App’s web-based interface, icons, media, or Firebase services may also receive standard connection information such as your IP address and request metadata.
+
+Notifications and downloads
+If you allow notifications, the App may show device notifications about new assets or administrator updates. The App does not request location, contacts, camera, microphone, or phone-number access in this release. When you download an asset, its URL and title are passed to your device’s download feature or browser so the file can be saved on your device.
+
+2. How We Use Information
+We use the information described above to:
+
+create, authenticate, and manage your account;
+provide downloads, comments, likes, saved assets, viewing history, and synchronized account features;
+maintain aggregate asset metrics and reduce duplicate view counting on an app installation;
+display App content and notifications you choose to receive;
+operate, secure, troubleshoot, and improve the App; and
+comply with applicable legal obligations and enforce our terms.
+3. Service Providers and Sharing
+We use Google Firebase to provide Firebase Authentication and Cloud Firestore. Firebase Authentication manages sign-in, and Cloud Firestore stores the account and App-content data described in this Policy. Google acts as a service provider/processor for these services. You can read Google’s Firebase privacy and security information and Privacy Policy.
+
+Google Sign-In is optional. If you select it, your use of Google Sign-In is also subject to Google’s policies. We do not sell personal information or use it for interest-based advertising. We share information only as described in this Policy, when required by law, to protect rights and safety, or as part of a merger, acquisition, or similar corporate transaction.
+
+4. Data Retention
+We retain account and App-activity data while your account is active and for as long as needed to provide the App, resolve disputes, meet legal obligations, or enforce our agreements. Data stored only on your device remains there until you clear the App’s storage or uninstall the App. Firebase’s processing and retention are governed by its applicable terms and privacy documentation.
+
+5. Your Choices and Account Deletion
+You may sign out at any time. You can manage local information by clearing the App’s storage or uninstalling the App. To request access to, correction of, or deletion of your Assetora account and associated Firestore data, email hexacrewdev@gmail.com from the email address linked to the account, with the subject line “Assetora Privacy Request.” For deletion requests, we will delete the Firebase Authentication account and associated account data, including saved assets, likes, viewed-asset history, and comments, unless we must retain limited information for a legal reason.
+
+6. Security
+We use reasonable safeguards designed to protect information, including the security controls provided by Firebase. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.
+
+7. Children’s Privacy
+Assetora is not designed for children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us personal information, please contact us so that we can take appropriate action.
+
+8. International Processing
+Firebase services may process information in the United States and other countries where Google or its service providers operate. By using the App, you understand that your information may be processed in countries that may have privacy laws different from those in your country.
+
+9. Changes to This Policy
+We may update this Policy from time to time. We will post the updated version in the App or at the privacy-policy URL and revise the “Last updated” date. Your continued use of the App after an update means you acknowledge the updated Policy.
+
+10. Contact Us
+If you have questions, suggestions, or a privacy request, contact us at [hexacrewdev@gmail.com]
